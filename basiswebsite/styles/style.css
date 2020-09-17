@@ -1,5 +1,39 @@
 /* CSS Document */
-*, *::after, *::before {
-  box-sizing:border-box;  
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    background-color: #212324;
+    text-decoration: none;
 }
 
+ul.Menu {
+    display: flex;
+    padding: 2em;
+    margin: 0;
+    justify-content: space-between;
+    max-width: 50em;
+    list-style-type: none;
+    background-color: #191a1b;
+    
+}
+
+li {
+    
+
+}
+
+header {
+    border: solid 2px black;
+    background-color: #191a1b;
+    max-width: 70%;
+    left:auto;
+    right: auto;
+}
+
+
+
+img {
+    background-color: #191a1b;
+    border: solid 3px light-grey;
+}
